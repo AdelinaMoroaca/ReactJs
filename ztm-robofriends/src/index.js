@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Hello from './Hello';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
@@ -14,7 +15,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.createRoot(document.getElementById('root')
 ).render(
   <React.StrictMode>
-    <App />
+    <Hello greeting={'Hello' + 'React Ninja'}/>
   </React.StrictMode>
 );
 
